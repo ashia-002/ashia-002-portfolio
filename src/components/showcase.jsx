@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 const ProjectShowcase = ({ title, tags, description, images, link, reverse }) => {
     return (
         <section
-            className={`relative bg-black text-white py-16 px-6 md:px-20 
+            className={`relative bg-black text-white py-8 px-6 md:px-20 
             flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"} 
             items-center gap-12 md:gap-20 overflow-hidden`}
         >

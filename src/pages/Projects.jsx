@@ -7,7 +7,7 @@ import ProjectShowcase2 from '../components/showcase2'
 export function Projects(params) {
   return (
     <div>
-      <h2 className="flex-1 text-md md:text-lg font-bold">.../Contacts ...</h2>
+      <h2 className="flex justify-center text-md md:text-lg font-bold bg-black text-white pb-6">.../Projects ...</h2>
       <ProjectShowcase
         title="Kana Master"
         tags={["TypeScript", "ReactNative", "Redux Toolkit", "i18n", "iOS"]}

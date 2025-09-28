@@ -24,7 +24,7 @@ const devops = [
 export function About(params) {
 
     return (
-        <section className="w-full bg-black text-white py-40 px-4 min-h-[150vh]">
+        <section className="w-full bg-black text-white py-20 px-4 min-h-[150vh]">
             <div className="max-w-6xl mx-auto">
                 {/* Title */}
                 <div className="flex flex-col md:flex-row gap-6 mb-24">
@@ -97,7 +97,7 @@ export function About(params) {
                         <img
                             src={Profile} // Replace with your actual image path
                             alt="Ashia Sultana"
-                            className="w-full max-w-sm rounded-[30px] object-cover shadow-xl grayscale"
+                            className="w-full max-w-sm rounded-[30px] object-cover shadow-xl"
                         />
                     </div>
                 </div>

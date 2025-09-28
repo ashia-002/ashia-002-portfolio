@@ -4,7 +4,7 @@ import WorkExperience from "../Section/Work";
 
 export function Home(params) {
     return (
-        <div>
+        <div className="bg-black">
             <Hero />
             <About />
             <WorkExperience

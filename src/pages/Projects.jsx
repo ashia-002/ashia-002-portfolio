@@ -9,11 +9,11 @@ export function Projects(params) {
     <div>
       <h2 className="flex justify-center text-md md:text-lg font-bold bg-black text-white">.../Projects ...</h2>
       <ProjectShowcase
-        title="Kana Master"
-        tags={["TypeScript", "ReactNative", "Redux Toolkit", "i18n", "iOS"]}
+        title="Vouchify App"
+        tags={["Backend", "Node js", "auth", "i18n", "iOS"]}
         description={[
-          "Kana Master is an iOS application designed for learning Katakana and Hiragana. It includes various tests and practical exercises that help in learning and memorizing Japanese characters.",
-          "The app also offers audio training for correct pronunciation and demonstrates how to properly draw each character."
+          "Vouchify is an iOS application designed for Buyer to explore vouchers based on Experience and Excursion. And sellers to sell their voucher. Practically a voucher marketplace.",
+          "The app also offers gifting vouchers redim offers and sales tracking for sellers."
         ]}
         images={{
           floating: vouchify1,

@@ -7,6 +7,7 @@ import { Projects } from './pages/Projects';
 import { Footer } from "./Section/Footer";
 import Navbar from './Section/Navbar';
 import Contact from './pages/Contact';
+import About from './pages/About';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/about' element={<About/>}/>
         </Routes>
       </div>
       <Footer/>

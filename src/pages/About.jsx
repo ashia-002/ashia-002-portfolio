@@ -14,7 +14,7 @@ const AboutSection = () => {
         transition={{ duration: 0.6 }}
         className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide text-center"
       >
-        <h2 className="flex-1 text-sm md:text-lg font-bold mb-10">.../About me ...</h2>
+        <h2 className="flex-1 text-md md:text-lg font-bold mb-10">.../About me ...</h2>
       </motion.h1>
 
       {/* Profile + Summary */}

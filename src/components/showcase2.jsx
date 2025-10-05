@@ -135,9 +135,23 @@ const ProjectShowcase = ({ title, tags, description, images, link }) => {
         </div>
 
         {/* Description */}
-        <div className="space-y-4 mb-8 text-gray-300 text-base sm:text-lg leading-relaxed font-medium">
-          {description}
-        </div>
+        {description && description.length > 0 && (
+          <div className="mb-8 space-y-4">
+            {/* First item as paragraph */}
+            <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
+              {description[0]}
+            </p>
+
+            {/* Remaining items as bullet points */}
+            {description.length > 1 && (
+              <ul className="list-disc list-inside space-y-2 text-gray-300 text-base sm:text-lg leading-relaxed">
+                {description.slice(1).map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
 
         {/* External link button */}
         {link && (

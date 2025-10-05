@@ -11,36 +11,28 @@ export function Home(params) {
                 totalExperience="2 years 9 months"
                 experiences={[
                     {
-                        startDate: "2022",
+                        startDate: "2025",
                         endDate: "Present",
-                        duration: "1 year 5 months",
-                        company: "ITHUB",
-                        position: "Frontend developer | React & Vue",
-                        technologies: ""
+                        duration: "6 months",
+                        company: "E-learning Platform 360 Pathshala",
+                        position: "Part-time UI/UX Designer | Web Design | Visual Designer",
+                        technologies: "Figma"
                     },
                     {
-                        startDate: "2021",
-                        endDate: "2022",
+                        startDate: "2024",
+                        endDate: "2025",
                         duration: "8 months",
-                        company: "VK Development Lab",
-                        position: "Frontend developer | React",
+                        company: "Client/Contract Work",
+                        position: "Backend developer | Node Js",
                         technologies: ""
                     },
                     {
-                        startDate: "2020",
-                        endDate: "2021",
-                        duration: "9 months",
-                        company: "SN Inc.",
-                        position: "Fullstack developer | JavaScript & Python",
-                        technologies: ""
-                    },
-                    {
-                        startDate: "2018",
-                        endDate: "2020",
-                        duration: "1 year 11 months",
-                        company: "Business Up",
-                        position: "Fullstack developer | JavaScript & Python",
-                        technologies: ""
+                        startDate: "2024",
+                        endDate: "2024",
+                        duration: "3 months",
+                        company: "Client Salon Project",
+                        position: "UI Designer | Web Design",
+                        technologies: "Figma"
                     }
                 ]}
             />

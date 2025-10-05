@@ -10,8 +10,8 @@ import jobtracker3 from "../assets/jobtracker/Frame 64.png"
 
 export function Projects(params) {
   return (
-    <div>
-      <h2 className="flex justify-center text-md md:text-lg font-bold bg-black text-white">.../Projects ...</h2>
+    <section>
+      <h2 className="flex justify-center text-xl md:text-lg font-bold bg-black text-white">.../Projects ...</h2>
       <ProjectShowcase
         title="Vouchify App"
         year={"2025"}
@@ -62,6 +62,6 @@ export function Projects(params) {
         link="#"
       />
 
-    </div>
+    </section>
   )
 }

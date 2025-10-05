@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Globe, Youtube } from "lucide-react";
+import { Globe, Youtube, Instagram } from "lucide-react";
 import { SiBehance, SiDribbble } from "react-icons/si";
 import Profile from "../assets/Ashia.jpg"
 
@@ -14,7 +14,7 @@ const AboutSection = () => {
         transition={{ duration: 0.6 }}
         className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-wide text-center"
       >
-        <h2 className="flex-1 text-md md:text-lg font-bold mb-10">.../About me ...</h2>
+        <h2 className="flex-1 text-sm md:text-lg font-bold mb-10">.../About me ...</h2>
       </motion.h1>
 
       {/* Profile + Summary */}
@@ -127,9 +127,9 @@ const AboutSection = () => {
               link: "https://dribbble.com/ashia002",
             },
             {
-              name: "YouTube",
-              icon: <Youtube className="w-5 h-5 text-red-500" />,
-              link: "https://youtube.com/",
+              name: "Instagram",
+              icon: <Instagram className="w-5 h-5 text-violet-500" />,
+              link: "https://www.instagram.com/ux_ui_alchemystudio/",
             },
           ].map((item) => (
             <a
